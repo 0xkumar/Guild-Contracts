@@ -1,3 +1,5 @@
+## Know Issues
+The boom function in Organization contract doesn't actually delete the contract in EVM versions starting from Cancun. It has to be modified to set a flag which would restrict access to all of its functions.
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
